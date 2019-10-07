@@ -36,8 +36,9 @@ export default class QuotesPage extends React.Component {
         return (
             <div>
                 <img
-                    style={{ width: '60%' }}
+                    style={{ width: '50%' }}
                     src='https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F808074%252Fe236d6f0-4e1f-4823-a75f-f00e3ef6a301.jpg%252Foriginal.jpg?signature=8rC9xgP49D61ulyqOkm3zpbGeVc=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com'
+                    alt='The Donald'
                 />
                 <h1>"{this.state.quote}"</h1>
             </div>

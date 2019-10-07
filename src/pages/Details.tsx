@@ -1,5 +1,6 @@
 import React from 'react';
 import { IonBackButton, IonButtons, IonHeader, IonPage, IonToolbar, IonTitle, IonContent } from '@ionic/react';
+import Clock from '../components/clockComponent'
 
 const Details: React.FC = () => {
   return (
@@ -9,11 +10,11 @@ const Details: React.FC = () => {
           <IonButtons slot="start">
             <IonBackButton defaultHref="/tab2" />
           </IonButtons>
-          <IonTitle>Detail</IonTitle>
+          <IonTitle>Clock</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <p>Details</p>
+        <Clock />
       </IonContent>
     </IonPage>
   );

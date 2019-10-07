@@ -1,13 +1,15 @@
 import React from 'react';
-import { IonHeader, IonToolbar, IonPage, IonTitle, IonContent } from '@ionic/react';
+import { IonPage, IonTitle, IonHeader, IonToolbar } from '@ionic/react';
 import QuotesPage from '../components/quotesPageComponent'
 const Tab3Page: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
+        <IonToolbar>
+          <IonTitle>Donald Trump Inspirational Quotes</IonTitle>
+        </IonToolbar>
       </IonHeader>
       <QuotesPage />
-      <IonContent />
     </IonPage>
   );
 };
